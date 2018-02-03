@@ -1,0 +1,3 @@
+rootProject.name = 'ImageHeaderScrollView'
+
+include ':app'
