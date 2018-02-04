@@ -13,15 +13,17 @@ class ColorsPage extends React.Component {
           fadeOutForeground
           headerImage={require('../../assets/cutecat.jpg')}
           overScrollMode="never"
+          overlayColor="#4A148C"
+          maxOverlayOpacity={0.9}
         >
-          <View style={{ height: 100, backgroundColor: 'blue' }} />
-          <View style={{ height: 100, backgroundColor: 'red' }} />
-          <View style={{ height: 100, backgroundColor: 'green' }} />
-          <View style={{ height: 100, backgroundColor: 'purple' }} />
-          <View style={{ height: 100, backgroundColor: 'orange' }} />
-          <View style={{ height: 100, backgroundColor: 'pink' }} />
-          <View style={{ height: 100, backgroundColor: 'brown' }} />
-          <View style={{ height: 100, backgroundColor: 'yellow' }} />
+          <View style={{ height: 100, backgroundColor: '#4CAF50' }} />
+          <View style={{ height: 100, backgroundColor: '#F44336' }} />
+          <View style={{ height: 100, backgroundColor: '#009688' }} />
+          <View style={{ height: 100, backgroundColor: '#03A9F4' }} />
+          <View style={{ height: 100, backgroundColor: '#FF9800' }} />
+          <View style={{ height: 100, backgroundColor: '#673AB7' }} />
+          <View style={{ height: 100, backgroundColor: '#795548' }} />
+          <View style={{ height: 100, backgroundColor: '#FFEB3B' }} />
         </HeaderImageScrollView>
       </View>
     );
