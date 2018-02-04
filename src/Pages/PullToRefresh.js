@@ -49,6 +49,7 @@ class BasicUsage extends React.Component {
               </TouchableOpacity>
             </View>
           )}
+          scrollViewBackgroundColor="#ddddff"
         >
           <View style={{ height: 1000 }} />
         </HeaderImageScrollView>

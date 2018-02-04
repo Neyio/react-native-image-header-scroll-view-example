@@ -23,9 +23,7 @@ class BasicUsage extends React.Component {
         <HeaderImageScrollView
           maxHeight={200}
           minHeight={MIN_HEIGHT}
-          renderHeader={() => (
-            <Image source={require('../../assets/NZ.jpg')} style={styles.image} />
-          )}
+          headerImage={require('../../assets/NZ.jpg')}
           renderForeground={() => (
             <View style={{ height: 150, justifyContent: 'center', alignItems: 'center' }}>
               <TouchableOpacity onPress={() => console.log('tap!!')}>

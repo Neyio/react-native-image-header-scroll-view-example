@@ -1,14 +1,7 @@
 import React from 'react';
-import { StyleSheet, Image, View, Dimensions } from 'react-native';
+import { Image, View, Dimensions } from 'react-native';
 
 import HeaderImageScrollView from 'react-native-image-header-scroll-view';
-
-const styles = StyleSheet.create({
-  image: {
-    height: 200,
-    width: Dimensions.get('window').width,
-  },
-});
 
 class ColorsPage extends React.Component {
   render() {
@@ -18,7 +11,7 @@ class ColorsPage extends React.Component {
           maxHeight={150}
           minHeight={80}
           fadeOutForeground
-          renderHeader={() => <Image source={require('../../assets/cutecat.jpg')} style={styles.image} />}
+          headerImage={require('../../assets/cutecat.jpg')}
           overScrollMode="never"
         >
           <View style={{ height: 100, backgroundColor: 'blue' }} />
